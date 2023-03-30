@@ -7,6 +7,7 @@
     --bg-color: #fcfcfc;
     --primary-color: #000000;
     --secondary-color: #474747;
+    --card-color: #fcfcfc;
     --primary-shadow: #8b8eaf;
     --secondary-shadow: #a17a69;
     --bottom-margin: 0.5rem;
@@ -14,6 +15,7 @@
     --line-height: 1.7rem;
     --transition: 0.5s;
 }
+
   /* Variables end */
 
 html {
@@ -42,6 +44,8 @@ a:hover {
 
 body {
     font-family: var(--font-family);
+    background-color: var(--bg-color);
+    color: var(--primary-color);
 }
 
 /* Navigation Bar */
@@ -62,6 +66,87 @@ nav {
 nav h1 {
     color: var(--primary-color);
 }
+
+.nav-right-space {
+    display: flex;
+    align-items: center;
+    gap: 3.5rem;
+}
+
+    /* Dark thme switch */
+
+.toggle-label {
+    width: 36px;
+    height: 20px;
+    position: relative;
+    background: #fcfcfc;
+    border-radius: 200px;
+    box-shadow: inset 0px 0.5px 1.5px var(--primary-shadow), inset 0px -0.5px 1.5px var(--secondary-shadow);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.toggle-label:after {
+    content: "";
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    background: linear-gradient(#fcfcfc, #474747);
+    border-radius: 18px;
+    box-shadow: 0 0.5px 1px var(--primary-shadow);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.toggle-input {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+.toggle-input:checked + .toggle-label {
+    background: #000000;
+}
+
+.toggle-input:checked + .toggle-label:after {
+    left: 34px;
+    transform: translateX(-100%);
+}
+
+.toggle-label:active:after {
+    width: 18px;
+}
+
+.toggle-label svg {
+    position: absolute;
+    top: 1px;
+    z-index: 100;
+}
+
+.toggle-label svg.sun {
+    left: 1px;
+    fill: #fcfcfc;
+    transition: 0.3s;
+}
+
+.toggle-label svg.moon {
+    right: 1px;
+    
+    transition: 0.3s;
+    display: none;
+}
+
+.toggle-input:checked + .toggle-label svg.sun {
+    display: none;
+}
+
+.toggle-input:checked + .toggle-label svg.moon {
+    display: block;
+}
+
+    /* Navigation List*/
 
 nav a {
     color: var(--primary-color);
@@ -93,10 +178,11 @@ nav ul li {
 
 /*main*/
 
-
 /*hero section*/
 
 .hero {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -150,6 +236,7 @@ nav ul li {
 }
 
 .project-container {
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -173,7 +260,7 @@ nav ul li {
 }
 
 .project-card {
-    background-color: #fff;
+    background-color: var(--card-color);
     border-radius: 11px;
     box-shadow: 0 2px 3px var(--primary-shadow);
     padding: 20px;
@@ -204,7 +291,7 @@ nav ul li {
 }
 
 .icon-card {
-    background-color: #fff;
+    background-color: var(--card-color);
     border-radius: 11px;
     box-shadow: 0 2px 3px var(--secondary-shadow);
     padding: 20px;
@@ -215,6 +302,7 @@ nav ul li {
 /*footer section*/
 
 footer {
+    color: var(--primary-color);
     position: relative;
     padding: 2rem;
 }
@@ -227,8 +315,13 @@ footer {
 }
 
 .socicon {
+    fill: var(--primary-color);
     width: 2rem;
     height: 2rem;
+}
+
+.socicon:hover {
+    fill: var(--secondary-color)
 }
 
 #mail {
@@ -247,6 +340,7 @@ footer {
 .up-arrow {
     width: 3rem;
     height: 3rem;
+    border-radius: 50%;
 }
 
 
@@ -296,7 +390,7 @@ footer {
         flex-direction: column;
         }
         
-        .project-container {
+    .project-container {
         width: 20.875rem;
         }
         
