@@ -44,6 +44,8 @@ body {
     font-family: var(--font-family);
 }
 
+/* Navigation Bar */
+
 nav {
     position: sticky;
     top: 0;
@@ -101,6 +103,7 @@ nav ul li {
     gap: 2.5rem;
     max-width: 68.75rem;
     margin: auto;
+    margin-top: 2rem;
 }
 
 .bio {
@@ -121,6 +124,7 @@ nav ul li {
 /*projects section*/
 
 .projects {
+    text-align: center;
     background-color: var(--bg-color);
     padding: 32px 0;
     margin-top: 2rem;
@@ -129,6 +133,8 @@ nav ul li {
 .project-pic {
     width: 65%;
     height: 60%;
+    min-width: 300px;
+    margin-bottom: 1rem;
 }
 
 .projects-container {
@@ -138,14 +144,20 @@ nav ul li {
 }
 
 .projects-title {
+    display: inline-block;
     text-align: center;
     margin-bottom: 1rem;
 }
 
 .project-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     width: 21.875rem;
     padding: 1rem;
+    
 }
 
 .project-container p {
