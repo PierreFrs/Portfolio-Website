@@ -36,6 +36,7 @@ ul {
 a {
     text-decoration: none;
     color: var(--primary-color);
+    transition: color var(--transition)
 }
 
 a:hover {
@@ -46,6 +47,7 @@ body {
     font-family: var(--font-family);
     background-color: var(--bg-color);
     color: var(--primary-color);
+    transition: background-color var(--transition), color var(--transition);
 }
 
 /* Navigation Bar */
@@ -61,10 +63,12 @@ nav {
     padding: 1.5rem 3.5rem;
     background-color: var(--bg-color);
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color var(--transition);
 }
 
 nav h1 {
     color: var(--primary-color);
+    transition: color var(--transition);
 }
 
 .nav-right-space {
@@ -150,7 +154,7 @@ nav h1 {
 
 nav a {
     color: var(--primary-color);
-    transition: var(--transition);
+    transition: color var(--transition);
 }
 
 nav a:hover {
@@ -190,6 +194,7 @@ nav ul li {
     max-width: 68.75rem;
     margin: auto;
     margin-top: 2rem;
+    transition: background-color var(--transition), color var(--transition);    
 }
 
 .bio {
@@ -214,6 +219,7 @@ nav ul li {
     background-color: var(--bg-color);
     padding: 32px 0;
     margin-top: 2rem;
+    transition: background-color var(--transition), color var(--transition);
 }
 
 .project-pic {
@@ -265,6 +271,7 @@ nav ul li {
     box-shadow: 0 2px 3px var(--primary-shadow);
     padding: 20px;
     margin: 10px;
+    transition: background-color var(--transition)
 }
 
 
@@ -296,6 +303,7 @@ nav ul li {
     box-shadow: 0 2px 3px var(--secondary-shadow);
     padding: 20px;
     margin: 8px;
+    transition: background-color var(--transition);
 }
 
 
@@ -305,6 +313,7 @@ footer {
     color: var(--primary-color);
     position: relative;
     padding: 2rem;
+    transition: color var(--transition);
 }
 
 .socials {
@@ -318,6 +327,7 @@ footer {
     fill: var(--primary-color);
     width: 2rem;
     height: 2rem;
+    transition: fill var(--transition)
 }
 
 .socicon:hover {
