@@ -394,6 +394,7 @@ footer {
     
     .projects {
         width: 90vw;
+        margin: auto;
     }
         
     .projects-container {
