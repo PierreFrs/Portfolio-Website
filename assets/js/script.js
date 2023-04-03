@@ -39,9 +39,6 @@ for (let i = 0; i < projects.length; i++) {
   projectContainer.appendChild(descriptionElement);
   projectContainer.appendChild(urlElement);
 }
-console.log(projectContainer);
-
-
 
 // scroll to top functionality
 const scrollUp = document.querySelector("#scroll-up");
