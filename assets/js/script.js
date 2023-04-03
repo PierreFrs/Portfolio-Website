@@ -1,5 +1,5 @@
 // Projects import from objects.json
-const response = await fetch('./projects.json');
+const response = await fetch('./assets/js/projects.json');
 const projects = await response.json();
 
 // Automated projects cards
@@ -12,7 +12,8 @@ for (let i = 0; i < projects.length; i++) {
   const projectContainer = document.createElement('div');
   projectContainer.classList.add('project-container');
   projectContainer.classList.add('project-card');
-  projectContainer.classList.add('animate__animated animate__fadeInRight');
+  projectContainer.classList.add('animate__animated');
+  projectContainer.classList.add('animate__fadeInRight');
 
   const imageElement = document.createElement('img');
   imageElement.src = project.image;
