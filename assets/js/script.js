@@ -1,5 +1,5 @@
 // Projects import from objects.json
-const response = await fetch('projects.json');
+const response = await fetch('./projects.json');
 const projects = await response.json();
 
 // Automated projects cards
@@ -38,6 +38,7 @@ for (let i = 0; i < projects.length; i++) {
   projectContainer.appendChild(descriptionElement);
   projectContainer.appendChild(urlElement);
 }
+console.log(projectContainer);
 
 
 

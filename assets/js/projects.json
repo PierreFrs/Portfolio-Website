@@ -1,5 +1,6 @@
 [
-    {   "image": "../images/clipboard_landing.jpg",
+    {   
+        "image": "../images/clipboard_landing.jpg",
         "id": "Clipboard Landing Page",
         "description": "Static landing page realised with HTML5 and CSS3.",
         "url": "https://pierrefrs.github.io/clipboard-landing-page-master/"
