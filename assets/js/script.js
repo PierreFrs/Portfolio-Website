@@ -1,3 +1,46 @@
+// Projects import from objects.json
+const response = await fetch('projects.json');
+const projects = await response.json();
+
+// Automated projects cards
+for (let i = 0; i < projects.length; i++) {
+  // Creates DOM elements
+  const project = projects[i];
+
+  const projectsContainer = document.querySelector('.projects-container');
+
+  const projectContainer = document.createElement('div');
+  projectContainer.classList.add('project-container');
+  projectContainer.classList.add('project-card');
+  projectContainer.classList.add('animate__animated animate__fadeInRight');
+
+  const imageElement = document.createElement('img');
+  imageElement.src = project.image;
+  imageElement.alt = 'Project screenshot';
+  imageElement.loading = 'lazy';
+  imageElement.classList.add('project-pic');
+  const titleElement = document.createElement('h3');
+  titleElement.innerText = project.id;
+  titleElement.classList.add('project-title');
+  const descriptionElement = document.createElement('p');
+  descriptionElement.innerText = project.description;
+  descriptionElement.classList.add('project-details');
+  const urlElement = document.createElement('a');
+  urlElement.innerText = 'Check it Out'
+  urlElement.href = project.url;
+  urlElement.target = '_blank';
+  urlElement.classList.add('project-link');
+
+  // Appending created elements to the projects div
+  projectsContainer.appendChild(projectContainer);
+  projectContainer.appendChild(imageElement);
+  projectContainer.appendChild(titleElement);
+  projectContainer.appendChild(descriptionElement);
+  projectContainer.appendChild(urlElement);
+}
+
+
+
 // scroll to top functionality
 const scrollUp = document.querySelector("#scroll-up");
 
@@ -62,4 +105,3 @@ btnToggle.addEventListener('click', () => {
 // reset light/dark class when reloading
 
 
-// Automated projects cards

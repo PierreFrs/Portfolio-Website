@@ -1,15 +1,17 @@
 [
-    {
+    {   "image": "../images/clipboard_landing.jpg",
         "id": "Clipboard Landing Page",
         "description": "Static landing page realised with HTML5 and CSS3.",
         "url": "https://pierrefrs.github.io/clipboard-landing-page-master/"
     },
     {
+        "image": "../images/form_validator.jpg",
         "id": "Form Validator",
         "description": "Simple form validator realised with HTML5, CSS3 and vanilla Javascript.",
         "url": "https://pierrefrs.github.io/Project-12---Form-Validator/"
     },
-    {
+    {   
+        "image": "../images/Article_Preview.jpg",
         "id": "Article Preview Card",
         "description": "Preview card with interactive social media links realised with HTML5, CSS3 and vanilla Javascript. ",
         "url": "https://pierrefrs.github.io/Article-Preview/"
