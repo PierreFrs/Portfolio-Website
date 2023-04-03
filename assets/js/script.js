@@ -60,3 +60,6 @@ btnToggle.addEventListener('click', () => {
 })
 
 // reset light/dark class when reloading
+
+
+// Automated projects cards

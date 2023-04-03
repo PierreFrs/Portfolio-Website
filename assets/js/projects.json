@@ -1,0 +1,17 @@
+[
+    {
+        "id": "Clipboard Landing Page",
+        "description": "Static landing page realised with HTML5 and CSS3.",
+        "url": "https://pierrefrs.github.io/clipboard-landing-page-master/"
+    },
+    {
+        "id": "Form Validator",
+        "description": "Simple form validator realised with HTML5, CSS3 and vanilla Javascript.",
+        "url": "https://pierrefrs.github.io/Project-12---Form-Validator/"
+    },
+    {
+        "id": "Article Preview Card",
+        "description": "Preview card with interactive social media links realised with HTML5, CSS3 and vanilla Javascript. ",
+        "url": "https://pierrefrs.github.io/Article-Preview/"
+    }
+]
