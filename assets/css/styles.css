@@ -229,16 +229,17 @@ nav ul li {
     margin-bottom: 1rem;
 }
 
-.projects-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .projects-title {
     display: inline-block;
     text-align: center;
     margin-bottom: 1rem;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: fit-content;
+    margin: auto;
 }
 
 .project-container {
@@ -274,7 +275,6 @@ nav ul li {
     transition: background-color var(--transition)
 }
 
-
 /*resume section*/
 
 .skills {
@@ -286,6 +286,13 @@ nav ul li {
 
 .skill-header {
     margin-bottom: 1rem;
+}
+
+.skills-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: fit-content;
+    margin: auto;
 }
 
 .skills-wrapper img {

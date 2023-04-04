@@ -1,8 +1,9 @@
+// Automated project cards
 // Projects import from objects.json
-const response = await fetch('./assets/js/projects.json');
-const projects = await response.json();
+const projectsResponse = await fetch('./assets/js/projects.json');
+const projects = await projectsResponse.json();
 
-// Automated projects cards
+// Automated projects cards loop
 for (let i = 0; i < projects.length; i++) {
   // Creates DOM elements
   const project = projects[i];
@@ -38,6 +39,30 @@ for (let i = 0; i < projects.length; i++) {
   projectContainer.appendChild(titleElement);
   projectContainer.appendChild(descriptionElement);
   projectContainer.appendChild(urlElement);
+}
+
+// Automated skill cards
+// Skill cards import from skills.json
+const skillsResponse = await fetch('./assets/js/skills.json');
+const skills = await skillsResponse.json();
+
+// Automated skills cards loop
+for (let i = 0; i < skills.length; i++) {
+// Creates DOM elements
+const skill = skills[i];
+
+const skillsContainer = document.querySelector('.skills-wrapper');
+
+const skillCard = document.createElement('img');
+skillCard.classList.add('animate__animated');
+skillCard.classList.add('animate__pulse-card');
+skillCard.classList.add('icon');
+skillCard.classList.add('icon-card');
+skillCard.src = skill.src;
+skillCard.alt = skill.alt;
+
+// Appending created elements to the projects div
+skillsContainer.appendChild(skillCard);
 }
 
 // scroll to top functionality
