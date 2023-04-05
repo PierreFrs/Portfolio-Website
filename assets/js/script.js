@@ -65,6 +65,7 @@ skillCard.alt = skill.alt;
 skillsContainer.appendChild(skillCard);
 }
 
+
 // scroll to top functionality
 const scrollUp = document.querySelector("#scroll-up");
 
@@ -75,6 +76,7 @@ scrollUp.addEventListener("click", () => {
     behavior: "smooth",
   });
 });
+
 
 // Nav hamburgerburger selections
 
@@ -97,35 +99,49 @@ navLink.forEach((link) =>
   })
 );
 
+
 // Light/dark theme
 const btnToggle = document.querySelector('.toggle-label');
+const toggleSwitch = window.getComputedStyle(btnToggle, ":after")
 const btnInput = document.querySelector('.toggle-input');
+const body = document.body;
 
-btnToggle.addEventListener('click', () => {
+// Function to set light mode
+const toggleLightMode = () => {
+  localStorage.setItem("darkMode", "light");
+  body.classList.add('light');
+  body.classList.remove('dark');
+  document.documentElement.style.setProperty('--bg-color', '#fcfcfc');
+  document.documentElement.style.setProperty('--primary-color', '#000000');
+  document.documentElement.style.setProperty('--card-color', '#fcfcfc');
+} 
 
-  const body = document.body;
-
-  const toggleLightMode = () => {
-    if (body.classList.contains("dark")) {
-    // Toggle light mode if body class = .dark
-    body.classList.add('light');
-    body.classList.remove('dark');
-    document.documentElement.style.setProperty('--bg-color', '#fcfcfc');
-    document.documentElement.style.setProperty('--primary-color', '#000000');
-    document.documentElement.style.setProperty('--card-color', '#fcfcfc');
-    
-  } else if (body.classList.contains("light")) {
-    // Toggle dark mode if body class = .light
-    body.classList.add('dark');
-    body.classList.remove('light');
-    document.documentElement.style.setProperty('--bg-color', '#000000');
-    document.documentElement.style.setProperty('--primary-color', '#fcfcfc');
-    document.documentElement.style.setProperty('--card-color', '#474747');
-  }
+// Function to toggle darkMode
+const toggleDarkMode = () => {
+  localStorage.setItem("darkMode", "dark");
+  body.classList.add('dark');
+  body.classList.remove('light');
+  document.documentElement.style.setProperty('--bg-color', '#000000');
+  document.documentElement.style.setProperty('--primary-color', '#fcfcfc');
+  document.documentElement.style.setProperty('--card-color', '#474747');
 }
-  toggleLightMode();
-})
 
 // reset light/dark class when reloading
+let storageValue = window.localStorage.getItem("darkMode");
+if (!storageValue) {
+  localStorage.setItem("darkMode", "light");
+} else if (storageValue === "light") {
+  toggleLightMode();
+} else if (storageValue === "dark") {
+  toggleDarkMode();
+}
 
+// dark/light mode switch event listener
+btnToggle.addEventListener('click', () => {
+  if (body.classList.contains("dark")) {
+    toggleLightMode();
+  } else {
+    toggleDarkMode()
+  }
+})
 
