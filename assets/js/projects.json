@@ -16,5 +16,11 @@
         "id": "Article Preview Card",
         "description": "Preview card with interactive social media links realised with HTML5, CSS3 and vanilla Javascript. ",
         "url": "https://pierrefrs.github.io/Article-Preview/"
+    },
+    {
+        "image": "./assets/images/cheatsheet.jpg",
+        "id": "Programming Cheatsheet",
+        "description": "My own simple programming cheatsheet that I am keeping up to date with my programming skills.",
+        "url": "https://pierrefrs.github.io/CheatSheet/"
     }
 ]
