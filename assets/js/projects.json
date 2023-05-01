@@ -22,5 +22,11 @@
         "id": "Node/React Blank App",
         "description": "Blank app setting a Node server and React front deployed with Railway",
         "url": "https://react-node-app-production-7cd6.up.railway.app/"
+    },
+    {   
+        "image": "./assets/images/MERN_todo_app.jpg",
+        "id": "MERN Todo application",
+        "description": "Simple To-Do app made with the MERN stack and deployed with Render.com",
+        "url": "https://todo-app-fnnt.onrender.com/"
     }
 ]
