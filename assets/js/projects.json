@@ -28,5 +28,11 @@
         "id": "MERN Todo application",
         "description": "Simple To-Do app made with the MERN stack and deployed with Render.com",
         "url": "https://todo-app-fnnt.onrender.com/"
+    },
+    {   
+        "image": "./assets/images/Counter-App.jpg",
+        "id": "Counter application",
+        "description": "Simple counter app made with React and deployed with Render.com. I built it thanks to a Udemy course and implemented myself a 'Lucky Button' setting the count randomly from 100 to 1000 and rendering a corresponding sound frequency thanks to the Web Audio API",
+        "url": "https://counter-app-86eh.onrender.com/"
     }
 ]
