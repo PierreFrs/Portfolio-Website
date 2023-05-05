@@ -4,7 +4,7 @@ const projectsResponse = await fetch('./assets/js/projects.json');
 const projects = await projectsResponse.json();
 
 // Automated projects cards loop
-for (let i = 0; i < projects.length; i++) {
+for (let i = projects.length - 1; i >= 0; i--) {
   // Creates DOM elements
   const project = projects[i];
 
