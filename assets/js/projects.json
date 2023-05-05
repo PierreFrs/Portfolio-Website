@@ -38,7 +38,7 @@
     {   
         "image": "./assets/images/Accordion.jpg",
         "id": "Accordion Component",
-        "description": "Simple accordion component made with React, I added the search function",
+        "description": "Simple accordion component made with React and thanks to a Udemy course, I added the search function",
         "url": "https://accordion-rqpm.onrender.com/"
     }
 ]
