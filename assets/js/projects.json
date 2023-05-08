@@ -73,7 +73,7 @@
     },
     {   
         "image": "./assets/images/Countdown.jpg",
-        "id": "Tabs",
+        "id": "Countdown",
         "description": "A product page with a countdown to christmas sales on top, made with React.",
         "url": "https://countdown-kud2.onrender.com/"
     }
