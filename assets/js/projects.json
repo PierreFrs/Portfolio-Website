@@ -58,6 +58,12 @@
         "id": "Password Visibility Toggle",
         "description": "Just a Login React Component with a visibility toggle button",
         "url": "https://password-visibility-toggle.onrender.com/"
+    },
+    {   
+        "image": "./assets/images/Modal.jpg",
+        "id": "Modal",
+        "description": "A simple React modal component with an open/close function (close function on 'Cancel', the close icon and everywhere excepted the card element.",
+        "url": "https://modal-e1on.onrender.com/"
     }
 
 ]
