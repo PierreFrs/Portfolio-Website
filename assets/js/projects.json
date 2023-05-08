@@ -70,6 +70,12 @@
         "id": "Tabs",
         "description": "Another React element composed of clickable tabs displaying content.",
         "url": "https://tabs-dfse.onrender.com/"
+    },
+    {   
+        "image": "./assets/images/Countdown.jpg",
+        "id": "Tabs",
+        "description": "A product page with a countdown to christmas sales on top, made with React.",
+        "url": "https://countdown-kud2.onrender.com/"
     }
 
 ]
