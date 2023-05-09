@@ -76,6 +76,12 @@
         "id": "Countdown",
         "description": "A product page with a countdown to christmas sales on top, made with React.",
         "url": "https://countdown-kud2.onrender.com/"
+    },
+    {   
+        "image": "./assets/images/Calculator.jpg",
+        "id": "Calculator",
+        "description": "A calculator made with React, thanks to Tyler Potts.",
+        "url": "https://react-calculator-p2ol.onrender.com/"
     }
 
 ]
