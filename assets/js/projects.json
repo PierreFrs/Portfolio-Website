@@ -48,12 +48,6 @@
         "url": "https://profile-app-ibns.onrender.com/"
     },
     {   
-        "image": "./assets/images/Random-Joke-Generator.jpg",
-        "id": "Random Joke Generator",
-        "description": "Classic random joke generator made with react and differents apis, you can choose from a bunch of different kind of jokes and generate random jokes for each category.",
-        "url": "https://random-joke-generator-j3eb.onrender.com/"
-    },
-    {   
         "image": "./assets/images/Password-Visibility-Toggle.jpg",
         "id": "Password Visibility Toggle",
         "description": "Just a Login React Component with a visibility toggle button",
