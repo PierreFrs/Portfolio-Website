@@ -88,6 +88,12 @@
         "id": "Weather App",
         "description": "A weather app made with React, thanks to Udemy again.",
         "url": "https://weather-app-udemy.onrender.com/"
+    },
+    {   
+        "image": "./assets/images/React-Food-App.jpg",
+        "id": "React Food App",
+        "description": "A Food Management app made with React that makes calls to the spoonacular API and renders the searched recipes to the user, letting him add some to favorites, search through favorites and change the color theme of the app. Deployed with Firebase.",
+        "url": "https://react-food-app-59e85.web.app/"
     }
 
 ]
