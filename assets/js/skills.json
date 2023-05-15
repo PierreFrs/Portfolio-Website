@@ -1,26 +1,34 @@
 [
-    {
-        "src": "./assets/icons/icons8-html-5.svg",
-        "alt": "HTML5 icon"
-    },
-    {
-        "src": "./assets/icons/icons8-css3.svg",
-        "alt": "CSS3 icon"
-    },
-    {
-        "src": "./assets/icons/icons8-javascript.svg",
-        "alt": "Javascript icon"
-    },
-    {
-        "src": "./assets/icons/icons8-sass.svg",
-        "alt": "SASS icon"
-    },
-    {
-        "src": "./assets/icons/icons8-jquery.svg",
-        "alt": "JQuery icon"
-    },
-    {
-        "src": "./assets/icons/icons8-git.svg",
-        "alt": "Git icon"
-    }
+  {
+    "src": "./assets/icons/icons8-html-5.svg",
+    "alt": "HTML5 icon"
+  },
+  {
+    "src": "./assets/icons/icons8-css3.svg",
+    "alt": "CSS3 icon"
+  },
+  {
+    "src": "./assets/icons/icons8-sass.svg",
+    "alt": "Sass icon"
+  },
+  {
+    "src": "./assets/icons/icons8-javascript.svg",
+    "alt": "Javascript icon"
+  },
+  {
+    "src": "./assets/icons/icons8-react-native.svg",
+    "alt": "ReactJS icon"
+  },
+  {
+    "src": "./assets/icons/icons8-node-js-240.svg",
+    "alt": "NodeJS icon"
+  },
+  {
+    "src": "./assets/icons/express.png",
+    "alt": "Express icon"
+  },
+  {
+    "src": "./assets/icons/icons8-git.svg",
+    "alt": "Git icon"
+  }
 ]
