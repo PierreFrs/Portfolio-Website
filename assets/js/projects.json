@@ -1,93 +1,98 @@
 [
-    {   
-        "image": "./assets/images/clipboard_landing.jpg",
-        "id": "Clipboard Landing Page",
-        "description": "Static landing page realised with HTML5 and CSS3.",
-        "url": "https://pierrefrs.github.io/clipboard-landing-page-master/"
-    },
-    {
-        "image": "./assets/images/Form_validator.jpg",
-        "id": "Form Validator",
-        "description": "Simple form validator realised with HTML5, CSS3 and vanilla Javascript.",
-        "url": "https://pierrefrs.github.io/Project-12---Form-Validator/"
-    },
-    {   
-        "image": "./assets/images/Article_Preview.jpg",
-        "id": "Article Preview Card",
-        "description": "Preview card with interactive social media links realised with HTML5, CSS3 and vanilla Javascript. ",
-        "url": "https://pierrefrs.github.io/Article-Preview/"
-    },
-    {   
-        "image": "./assets/images/Node_React_App.jpg",
-        "id": "Node/React Blank App",
-        "description": "Blank app setting a Node server and React front deployed with Railway.",
-        "url": "https://react-node-app-production-7cd6.up.railway.app/"
-    },
-    {   
-        "image": "./assets/images/MERN_todo_app.jpg",
-        "id": "MERN Todo application",
-        "description": "Simple To-Do app made with the MERN stack and deployed with Render.com.",
-        "url": "https://todo-app-fnnt.onrender.com/"
-    },
-    {   
-        "image": "./assets/images/Counter-App.jpg",
-        "id": "Counter application",
-        "description": "Simple counter app made with React and deployed with Render.com. I built it thanks to a Udemy course and implemented myself a 'Lucky Button' setting the count randomly from 100 to 1000 and rendering a corresponding sound frequency thanks to the Web Audio API.",
-        "url": "https://counter-app-86eh.onrender.com/"
-    },
-    {   
-        "image": "./assets/images/Accordion.jpg",
-        "id": "Accordion Component",
-        "description": "Simple accordion component made with React and thanks to a Udemy course, I added the search function.",
-        "url": "https://accordion-rqpm.onrender.com/"
-    },
-    {   
-        "image": "./assets/images/Profile-App.jpg",
-        "id": "Profile App",
-        "description": "Simple React component that displays a list of profile and allows the user to delete some and to search through it. Thanks to Udemy once again.",
-        "url": "https://profile-app-ibns.onrender.com/"
-    },
-    {   
-        "image": "./assets/images/Password-Visibility-Toggle.jpg",
-        "id": "Password Visibility Toggle",
-        "description": "Just a Login React Component with a visibility toggle button",
-        "url": "https://password-visibility-toggle.onrender.com/"
-    },
-    {   
-        "image": "./assets/images/Modal.jpg",
-        "id": "Modal",
-        "description": "A simple React modal component with an open/close function (close function on 'Cancel', the close icon and everywhere excepted the card element).",
-        "url": "https://modal-e1on.onrender.com/"
-    },
-    {   
-        "image": "./assets/images/Tabs.jpg",
-        "id": "Tabs",
-        "description": "Another React element composed of clickable tabs displaying content.",
-        "url": "https://tabs-dfse.onrender.com/"
-    },
-    {   
-        "image": "./assets/images/Countdown.jpg",
-        "id": "Countdown",
-        "description": "A product page with a countdown to christmas sales on top, made with React.",
-        "url": "https://countdown-kud2.onrender.com/"
-    },
-    {   
-        "image": "./assets/images/Calculator.jpg",
-        "id": "Calculator",
-        "description": "A calculator made with React, thanks to Tyler Potts.",
-        "url": "https://react-calculator-p2ol.onrender.com/"
-    },
-    {   
-        "image": "./assets/images/Weather.jpg",
-        "id": "Weather App",
-        "description": "A weather app made with React, thanks to Udemy again.",
-        "url": "https://weather-app-udemy.onrender.com/"
-    },
-    {   
-        "image": "./assets/images/React-Food-App.jpg",
-        "id": "React Food App",
-        "description": "A Food Management app made with React that makes calls to the spoonacular API and renders the searched recipes to the user, letting him add some to favorites, search through favorites and change the color theme of the app. Deployed with Firebase.",
-        "url": "https://react-food-app-59e85.web.app/"
-    }
-
+  {
+    "image": "./assets/images/clipboard_landing.jpg",
+    "id": "Clipboard Landing Page",
+    "description": "Static landing page realised with HTML5 and CSS3.",
+    "url": "https://pierrefrs.github.io/clipboard-landing-page-master/"
+  },
+  {
+    "image": "./assets/images/Form_validator.jpg",
+    "id": "Form Validator",
+    "description": "Simple form validator realised with HTML5, CSS3 and vanilla Javascript.",
+    "url": "https://pierrefrs.github.io/Project-12---Form-Validator/"
+  },
+  {
+    "image": "./assets/images/Article_Preview.jpg",
+    "id": "Article Preview Card",
+    "description": "Preview card with interactive social media links realised with HTML5, CSS3 and vanilla Javascript. ",
+    "url": "https://pierrefrs.github.io/Article-Preview/"
+  },
+  {
+    "image": "./assets/images/Node_React_App.jpg",
+    "id": "Node/React Blank App",
+    "description": "Blank app setting a Node server and React front deployed with Railway.",
+    "url": "https://react-node-app-production-7cd6.up.railway.app/"
+  },
+  {
+    "image": "./assets/images/MERN_todo_app.jpg",
+    "id": "MERN Todo application",
+    "description": "Simple To-Do app made with the MERN stack and deployed with Render.com.",
+    "url": "https://todo-app-fnnt.onrender.com/"
+  },
+  {
+    "image": "./assets/images/Counter-App.jpg",
+    "id": "Counter application",
+    "description": "Simple counter app made with React and deployed with Render.com. I built it thanks to a Udemy course and implemented myself a 'Lucky Button' setting the count randomly from 100 to 1000 and rendering a corresponding sound frequency thanks to the Web Audio API.",
+    "url": "https://counter-app-86eh.onrender.com/"
+  },
+  {
+    "image": "./assets/images/Accordion.jpg",
+    "id": "Accordion Component",
+    "description": "Simple accordion component made with React and thanks to a Udemy course, I added the search function.",
+    "url": "https://accordion-rqpm.onrender.com/"
+  },
+  {
+    "image": "./assets/images/Profile-App.jpg",
+    "id": "Profile App",
+    "description": "Simple React component that displays a list of profile and allows the user to delete some and to search through it. Thanks to Udemy once again.",
+    "url": "https://profile-app-ibns.onrender.com/"
+  },
+  {
+    "image": "./assets/images/Password-Visibility-Toggle.jpg",
+    "id": "Password Visibility Toggle",
+    "description": "Just a Login React Component with a visibility toggle button",
+    "url": "https://password-visibility-toggle.onrender.com/"
+  },
+  {
+    "image": "./assets/images/Modal.jpg",
+    "id": "Modal",
+    "description": "A simple React modal component with an open/close function (close function on 'Cancel', the close icon and everywhere excepted the card element).",
+    "url": "https://modal-e1on.onrender.com/"
+  },
+  {
+    "image": "./assets/images/Tabs.jpg",
+    "id": "Tabs",
+    "description": "Another React element composed of clickable tabs displaying content.",
+    "url": "https://tabs-dfse.onrender.com/"
+  },
+  {
+    "image": "./assets/images/Countdown.jpg",
+    "id": "Countdown",
+    "description": "A product page with a countdown to christmas sales on top, made with React.",
+    "url": "https://countdown-kud2.onrender.com/"
+  },
+  {
+    "image": "./assets/images/Calculator.jpg",
+    "id": "Calculator",
+    "description": "A calculator made with React, thanks to Tyler Potts.",
+    "url": "https://react-calculator-p2ol.onrender.com/"
+  },
+  {
+    "image": "./assets/images/Weather.jpg",
+    "id": "Weather App",
+    "description": "A weather app made with React, thanks to Udemy again.",
+    "url": "https://weather-app-udemy.onrender.com/"
+  },
+  {
+    "image": "./assets/images/React-Food-App.jpg",
+    "id": "React Food App",
+    "description": "A Food Management app made with React that makes calls to the spoonacular API and renders the searched recipes to the user, letting him add some to favorites, search through favorites and change the color theme of the app. Deployed with Firebase.",
+    "url": "https://react-food-app-59e85.web.app/"
+  },
+  {
+    "image": "./assets/images/age-calculator-app.jpg",
+    "id": "Age Calculator App",
+    "description": "A simple app that calculate your age, made in vanilla JS and Tailwind CSS from a frontendmentor challenge. Deployed with Render as usual",
+    "url": "https://age-calculator-app.onrender.com/"
+  }
 ]

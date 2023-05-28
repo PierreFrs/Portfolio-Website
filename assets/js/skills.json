@@ -12,6 +12,10 @@
     "alt": "Sass icon"
   },
   {
+    "src": "./assets/icons/icons8-tailwind-css.svg",
+    "alt": "TailwindCSS icon"
+  },
+  {
     "src": "./assets/icons/icons8-javascript.svg",
     "alt": "Javascript icon"
   },
