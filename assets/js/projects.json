@@ -94,5 +94,11 @@
     "id": "Age Calculator App",
     "description": "A simple app that calculate your age, made in vanilla JS and Tailwind CSS from a frontendmentor challenge. Deployed with Render as usual",
     "url": "https://age-calculator-app.onrender.com/"
+  },
+  {
+    "image": "./assets/images/interactive-card-details-form.jpg",
+    "id": "Interactive Card Detail Form",
+    "description": "A form that checks the validity of the card infos, displays a success page if right and dynamically displays the infos on the card. Made with vanilla JS and deployed on render.",
+    "url": "https://interactive-card-details-form-dcru.onrender.com/"
   }
 ]
