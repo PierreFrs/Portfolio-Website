@@ -359,11 +359,21 @@ footer {
 
 /*media querries*/
 
+@media screen and (max-width: 1024px) {
+  .projects-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 /*tablet*/
 
 @media screen and (max-width: 720px) {
   nav {
     padding: 1.5rem 1rem;
+  }
+
+  .projects-container {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -397,10 +407,6 @@ footer {
   .projects {
     width: 90vw;
     margin: auto;
-  }
-
-  .projects-container {
-    grid-template-columns: 1fr;
   }
 
   .project-container {
