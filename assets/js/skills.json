@@ -1,21 +1,5 @@
 [
   {
-    "src": "./assets/icons/icons8-html-5.svg",
-    "alt": "HTML5 icon"
-  },
-  {
-    "src": "./assets/icons/icons8-css3.svg",
-    "alt": "CSS3 icon"
-  },
-  {
-    "src": "./assets/icons/icons8-sass.svg",
-    "alt": "Sass icon"
-  },
-  {
-    "src": "./assets/icons/icons8-tailwind-css.svg",
-    "alt": "TailwindCSS icon"
-  },
-  {
     "src": "./assets/icons/icons8-javascript.svg",
     "alt": "Javascript icon"
   },
@@ -30,6 +14,22 @@
   {
     "src": "./assets/icons/express.png",
     "alt": "Express icon"
+  },
+  {
+    "src": "./assets/icons/dotnet.svg",
+    "alt": ".NET icon"
+  },
+  {
+    "src": "./assets/icons/angularjs.svg",
+    "alt": "Angular icon"
+  },
+  {
+    "src": "./assets/icons/icons8-sass.svg",
+    "alt": "Sass icon"
+  },
+  {
+    "src": "./assets/icons/icons8-tailwind-css.svg",
+    "alt": "TailwindCSS icon"
   },
   {
     "src": "./assets/icons/icons8-git.svg",

@@ -38,37 +38,37 @@
   {
     "image": "./assets/images/OCR-projet-2.jpg",
     "id": "Booki",
-    "description": "Static landing page for a booking agency.",
+    "description": "Static landing page for a booking agency, simple plain HTML/CSS project.",
     "url": "https://pierrefrs.github.io/Projet-OCR2-Booki/"
   },
   {
     "image": "./assets/images/OCR-projet-3.jpg",
     "id": "ArchiWebos",
-    "description": "Dynamic architect portfolio with authentification and add/remove function for projects.",
+    "description": "Dynamic architect portfolio with authentification and add/remove function for projects. A great challenge of using vanilla JS, showed me the limits of not using a framework too.",
     "url": "https://github.com/PierreFrs/Projet-OCR3-ArchiWebos.git"
   },
   {
     "image": "./assets/images/OCR-projet-4.jpg",
     "id": "Menu-Maker",
-    "description": "Planification of a menu making app for food profesionnals.",
+    "description": "Planification of a menu making app for food profesionnals. My first experience as a project manager, it helped me grow my problem solving skills at a large scale.",
     "url": "https://www.notion.so/3acd986912f34d55a10ead10e7790c33?v=aa0ca30080e0452f9f738159a054aa1d"
   },
   {
     "image": "./assets/images/OCR-projet-5.jpg",
     "id": "Nina-Carducci",
-    "description": "Debug and optimization (performances, SEO, accessibility) of a photographer portfolio.",
+    "description": "Debug and optimization (performances, SEO, accessibility) of a photographer portfolio. So glad to have learned about the principles of natural SEO and its entanglement with performances.",
     "url": "https://github.com/PierreFrs/Projet-OCR5-NinaCarducci.git/"
   },
   {
     "image": "./assets/images/OCR-projet-6.jpg",
     "id": "Kasa",
-    "description": "Dynamic SPA of a rental agency made with React.",
+    "description": "Dynamic SPA of a rental agency made with React. Challenged my knowledge of frontend development and taught me the basics of React.",
     "url": "https://github.com/PierreFrs/projet-ocr6-kasa.git"
   },
   {
     "image": "./assets/images/OCR-projet-7.jpg",
     "id": "Mon-Vieux-Grimoir",
-    "description": "Backend of a book rating app made with Node.js, Express and MongoDB.",
+    "description": "Backend of a book rating app made with Node.js, Express and MongoDB. It taught me how deal with authentification, basic security and CRUD operations.",
     "url": "https://github.com/PierreFrs/P7-MonVieuxGrimoire-backend.git"
   }
 ]
