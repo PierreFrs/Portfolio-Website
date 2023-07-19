@@ -1,71 +1,5 @@
 [
   {
-    "image": "./assets/images/clipboard_landing.jpg",
-    "id": "Clipboard Landing Page",
-    "description": "Static landing page realised with HTML5 and CSS3.",
-    "url": "https://pierrefrs.github.io/clipboard-landing-page-master/"
-  },
-  {
-    "image": "./assets/images/Form_validator.jpg",
-    "id": "Form Validator",
-    "description": "Simple form validator realised with HTML5, CSS3 and vanilla Javascript.",
-    "url": "https://pierrefrs.github.io/Project-12---Form-Validator/"
-  },
-  {
-    "image": "./assets/images/Article_Preview.jpg",
-    "id": "Article Preview Card",
-    "description": "Preview card with interactive social media links realised with HTML5, CSS3 and vanilla Javascript. ",
-    "url": "https://pierrefrs.github.io/Article-Preview/"
-  },
-  {
-    "image": "./assets/images/Node_React_App.jpg",
-    "id": "Node/React Blank App",
-    "description": "Blank app setting a Node server and React front deployed with Railway.",
-    "url": "https://react-node-app-production-7cd6.up.railway.app/"
-  },
-  {
-    "image": "./assets/images/MERN_todo_app.jpg",
-    "id": "MERN Todo application",
-    "description": "Simple To-Do app made with the MERN stack and deployed with Render.com.",
-    "url": "https://todo-app-fnnt.onrender.com/"
-  },
-  {
-    "image": "./assets/images/Counter-App.jpg",
-    "id": "Counter application",
-    "description": "Simple counter app made with React and deployed with Render.com. I built it thanks to a Udemy course and implemented myself a 'Lucky Button' setting the count randomly from 100 to 1000 and rendering a corresponding sound frequency thanks to the Web Audio API.",
-    "url": "https://counter-app-86eh.onrender.com/"
-  },
-  {
-    "image": "./assets/images/Accordion.jpg",
-    "id": "Accordion Component",
-    "description": "Simple accordion component made with React and thanks to a Udemy course, I added the search function.",
-    "url": "https://accordion-rqpm.onrender.com/"
-  },
-  {
-    "image": "./assets/images/Profile-App.jpg",
-    "id": "Profile App",
-    "description": "Simple React component that displays a list of profile and allows the user to delete some and to search through it. Thanks to Udemy once again.",
-    "url": "https://profile-app-ibns.onrender.com/"
-  },
-  {
-    "image": "./assets/images/Password-Visibility-Toggle.jpg",
-    "id": "Password Visibility Toggle",
-    "description": "Just a Login React Component with a visibility toggle button",
-    "url": "https://password-visibility-toggle.onrender.com/"
-  },
-  {
-    "image": "./assets/images/Modal.jpg",
-    "id": "Modal",
-    "description": "A simple React modal component with an open/close function (close function on 'Cancel', the close icon and everywhere excepted the card element).",
-    "url": "https://modal-e1on.onrender.com/"
-  },
-  {
-    "image": "./assets/images/Tabs.jpg",
-    "id": "Tabs",
-    "description": "Another React element composed of clickable tabs displaying content.",
-    "url": "https://tabs-dfse.onrender.com/"
-  },
-  {
     "image": "./assets/images/Countdown.jpg",
     "id": "Countdown",
     "description": "A product page with a countdown to christmas sales on top, made with React.",
@@ -100,5 +34,41 @@
     "id": "Interactive Card Detail Form",
     "description": "A form that checks the validity of the card infos, displays a success page if right and dynamically displays the infos on the card. Made with vanilla JS and deployed on render.",
     "url": "https://interactive-card-details-form-dcru.onrender.com/"
+  },
+  {
+    "image": "./assets/images/OCR-projet-2.jpg",
+    "id": "Booki",
+    "description": "Static landing page for a booking agency.",
+    "url": "https://pierrefrs.github.io/Projet-OCR2-Booki/"
+  },
+  {
+    "image": "./assets/images/OCR-projet-3.jpg",
+    "id": "ArchiWebos",
+    "description": "Dynamic architect portfolio with authentification and add/remove function for projects.",
+    "url": "https://github.com/PierreFrs/Projet-OCR3-ArchiWebos.git"
+  },
+  {
+    "image": "./assets/images/OCR-projet-4.jpg",
+    "id": "Menu-Maker",
+    "description": "Planification of a menu making app for food profesionnals.",
+    "url": "https://www.notion.so/3acd986912f34d55a10ead10e7790c33?v=aa0ca30080e0452f9f738159a054aa1d"
+  },
+  {
+    "image": "./assets/images/OCR-projet-5.jpg",
+    "id": "Nina-Carducci",
+    "description": "Debug and optimization (performances, SEO, accessibility) of a photographer portfolio.",
+    "url": "https://github.com/PierreFrs/Projet-OCR5-NinaCarducci.git/"
+  },
+  {
+    "image": "./assets/images/OCR-projet-6.jpg",
+    "id": "Kasa",
+    "description": "Dynamic SPA of a rental agency made with React.",
+    "url": "https://github.com/PierreFrs/projet-ocr6-kasa.git"
+  },
+  {
+    "image": "./assets/images/OCR-projet-7.jpg",
+    "id": "Mon-Vieux-Grimoir",
+    "description": "Backend of a book rating app made with Node.js, Express and MongoDB.",
+    "url": "https://github.com/PierreFrs/P7-MonVieuxGrimoire-backend.git"
   }
 ]
