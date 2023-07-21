@@ -1,13 +1,17 @@
 // Utility functions to create and fetch DOM elements
 const createDOMElement = (type, properties = {}, ...classList) => {
+  // Create a certain DOM element
   const element = document.createElement(type);
+  // Assigns its properties to the element
   for (const [key, value] of Object.entries(properties)) {
     element[key] = value;
   }
+  // Adds the necessary classes to the element
   element.classList.add(...classList);
   return element;
 };
 
+// fetch data and sends them back in json format
 const fetchAndParseJSON = async (path) => {
   const response = await fetch(path);
   return await response.json();
@@ -103,7 +107,6 @@ const setupEventHandlers = () => {
 const setupThemeSwitcher = () => {
   const body = document.body;
   const btnToggle = document.querySelector(".toggle-label");
-  const btnInput = document.querySelector(".toggle-input");
 
   const setThemeProperties = (bgColor, primaryColor, cardColor) => {
     document.documentElement.style.setProperty("--bg-color", bgColor);
