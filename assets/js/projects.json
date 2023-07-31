@@ -68,7 +68,7 @@
   {
     "image": "./assets/images/OCR-projet-7.jpg",
     "id": "Mon-Vieux-Grimoir",
-    "description": "Backend of a book rating app made with Node.js, Express and MongoDB. It taught me how deal with authentification, basic security and CRUD operations.",
+    "description": "Backend of a book rating app made with Node.js, Express and MongoDB. It taught me how deal with authentication, basic security and CRUD operations.",
     "url": "https://github.com/PierreFrs/P7-MonVieuxGrimoire-backend.git"
   }
 ]

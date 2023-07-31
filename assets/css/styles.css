@@ -327,6 +327,12 @@ footer {
   bottom: 3%;
 }
 
+.socicon-link {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
 .socicon {
   fill: var(--primary-color);
   width: 2rem;
